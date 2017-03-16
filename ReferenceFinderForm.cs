@@ -88,25 +88,31 @@ namespace ReferenceFinder
 			}
 		}
 
-		private void ClearColor()
+		private void ResetTree()
 		{
-			ClearColorRecursive(treeView1.TopNode);
+			foreach (TreeNode treeNode in treeView1.Nodes)
+			{
+				treeNode.Collapse();
+				ResetTreeNodeRecursive(treeNode);
+			}
 		}
 
-		private void ClearColorRecursive(TreeNode node)
+		private void ResetTreeNodeRecursive(TreeNode node)
 		{
 			foreach (TreeNode n in node.Nodes)
 			{
-				n.ForeColor = DefaultForeColor;
-				n.BackColor = DefaultBackColor;
+				n.ForeColor = treeView1.ForeColor;
+				n.BackColor = treeView1.BackColor;
 
-				ClearColorRecursive(n);
+				n.Collapse();
+
+				ResetTreeNodeRecursive(n);
 			}
 		}
 
 		private void ProcessTreeView(TreeView treeView, string findText)
 		{
-			ClearColor();
+			ResetTree();
 
 			var matchingNodes = new List<TreeNode>();
 
