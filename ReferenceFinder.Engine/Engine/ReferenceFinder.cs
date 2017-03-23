@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using ReferenceFinder.Exceptions;
-using ReferenceFinder.Helpers;
-using ReferenceFinder.Models;
+using ReferenceFinder.Engine.Exceptions;
+using ReferenceFinder.Engine.Helpers;
+using ReferenceFinder.Engine.Models;
 
-namespace ReferenceFinder.Engine
+namespace ReferenceFinder.Engine.Engine
 {
 	public class ReferenceFinder
 	{

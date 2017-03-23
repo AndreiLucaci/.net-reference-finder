@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceFinder", "ReferenceFinder\ReferenceFinder.csproj", "{822E28A6-7997-4ADC-894E-6E57350778BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceFinder.Win", "ReferenceFinder\ReferenceFinder.Win.csproj", "{822E28A6-7997-4ADC-894E-6E57350778BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceFinder.Engine", "ReferenceFinder.Engine\ReferenceFinder.Engine.csproj", "{F4876726-CE97-4250-8415-1DF3D74A0ED2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{822E28A6-7997-4ADC-894E-6E57350778BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{822E28A6-7997-4ADC-894E-6E57350778BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{822E28A6-7997-4ADC-894E-6E57350778BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4876726-CE97-4250-8415-1DF3D74A0ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4876726-CE97-4250-8415-1DF3D74A0ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4876726-CE97-4250-8415-1DF3D74A0ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4876726-CE97-4250-8415-1DF3D74A0ED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

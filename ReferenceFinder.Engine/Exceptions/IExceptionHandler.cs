@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReferenceFinder.Exceptions
+namespace ReferenceFinder.Engine.Exceptions
 {
 	public interface IExceptionHandler
 	{

@@ -1,4 +1,4 @@
-﻿namespace ReferenceFinder
+﻿namespace ReferenceFinder.Win
 {
 	partial class ReferenceFinderForm
 	{

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace ReferenceFinder.Models
+namespace ReferenceFinder.Engine.Models
 {
 	public class ReferenceHolder
 	{

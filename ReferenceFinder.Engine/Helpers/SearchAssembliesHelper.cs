@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Text.RegularExpressions;
-using ReferenceFinder.Exceptions;
+using ReferenceFinder.Engine.Exceptions;
 
-namespace ReferenceFinder.Helpers
+namespace ReferenceFinder.Engine.Helpers
 {
 	public class SearchAssembliesHelper
 	{

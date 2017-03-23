@@ -4,10 +4,11 @@ using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ReferenceFinder.Exceptions;
-using ReferenceFinder.Helpers;
+using ReferenceFinder.Engine.Exceptions;
+using ReferenceFinder.Engine.Helpers;
+using ReferenceFinder.Win.Exceptions;
 
-namespace ReferenceFinder
+namespace ReferenceFinder.Win
 {
 	public partial class ReferenceFinderForm : Form
 	{
@@ -47,7 +48,7 @@ namespace ReferenceFinder
 			try
 			{
 				var folderName = folder_name_ln.Text;
-				var referenceFinder = new Engine.ReferenceFinder(_searchAssembliesHelper, _exceptionHandler);
+				var referenceFinder = new Engine.Engine.ReferenceFinder(_searchAssembliesHelper, _exceptionHandler);
 				var result = referenceFinder.ProcessFolderName(folderName);
 
 				treeView1.Invoke(new Action(() =>
