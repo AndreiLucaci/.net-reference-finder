@@ -8,7 +8,7 @@ using ReferenceFinder.Engine.Exceptions;
 using ReferenceFinder.Engine.Helpers;
 using ReferenceFinder.Win.Exceptions;
 
-namespace ReferenceFinder.Win
+namespace ReferenceFinder.Win.Forms
 {
 	public partial class ReferenceFinderForm : Form
 	{

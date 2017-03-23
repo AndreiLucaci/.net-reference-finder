@@ -47,15 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exceptions\ExceptionNotifierForWinForm.cs" />
-    <Compile Include="ReferenceFinderForm.cs">
+    <Compile Include="Forms\ReferenceFinderForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReferenceFinderForm.Designer.cs">
+    <Compile Include="Forms\ReferenceFinderForm.Designer.cs">
       <DependentUpon>ReferenceFinderForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ReferenceFinderForm.resx">
+    <EmbeddedResource Include="Forms\ReferenceFinderForm.resx">
       <DependentUpon>ReferenceFinderForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
