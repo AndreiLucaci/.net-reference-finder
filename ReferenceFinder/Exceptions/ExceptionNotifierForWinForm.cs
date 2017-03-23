@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
+using ReferenceFinder.Engine.Exceptions;
 
-namespace ReferenceFinder.Exceptions
+namespace ReferenceFinder.Win.Exceptions
 {
 	public class ExceptionNotifierForWinForm : IExceptionHandler
 	{
